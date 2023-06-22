@@ -1,14 +1,14 @@
 <!-- HEADER -->
 <br />
 <p align="center">
- <a href="https://github.com/AntonioValentinSayago/.net6_angular_crud">
-    <img src="public/img/Logo.png" alt="Logo" width="160" height="160">
+ <a href="https://github.com/AntonioValentinSayago/minsait-valentin">
+    <img src="img/logo.png" alt="Logo" width="160" height="160">
  </a>
 
-  <h3 align="center">Indra Minsait / 2023</h3>
+  <h3 align="center">Indra Minsait / JavaScript Moderno 2023</h3>
 
   <p align="center">
-    An awesome app with HTML,CSS3 - .CSS GRID !
+      JavaScript Guida Moderna para dominar el Lenguaje
     <br />
   </p>
 </p>
@@ -44,13 +44,8 @@
 
 [![Product Name Screen Shot][screenshot]](https://github.com/AntonioValentinSayago/.net6_angular_crud)
 
-It is a chat inspired by Whatsapp, developed in Node.js & mysql.
-
-The software is based on private chats between users registered on the platform, it also allows sending messages to emails provided by users.
-
-Tahduth has a multi-threaded system, avoiding server saturation, it has image and emoji processing, it also has a video call system.
-
-Tahduth is still in development, adding new features and fixing bugs. The possibilities with this base are endless, so I hope you can take the source code of this project as an example.
+Consuming different REST APIS with JSON and Fetch API + Async / Await, one of the most important topics as a JavaScript developer, 
+object-oriented programming with Classes (ES6) and Prototypes (ES5)
 
 ### Built With
 
@@ -139,13 +134,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Deathmajorasmask - cesar_anto30@hotmail.com
+Antonio Valentín - cesar_anto30@hotmail.com
 
-Project Link: [https://github.com/AntonioValentinSayago/.net6_angular_crud](https://github.com/AntonioValentinSayago/minsait-valentin.git)
+Project Link: [https://github.com/AntonioValentinSayago/minsait-valentin](https://github.com/AntonioValentinSayago/minsait-valentin.git)
 
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[screenshot]: images/Screen01_TahduthChat.JPG
-[screenshot01]: images/Screen02_TahduthChat.JPG
+[screenshot]: img/logo.png
+[screenshot01]: img/logo.png
