@@ -2,13 +2,13 @@
 <br />
 <p align="center">
  <a href="https://github.com/AntonioValentinSayago/minsait-valentin">
-    <img src="img/logo.png" alt="Logo" width="160" height="160">
+    <img src="app/img/logov1.png" alt="Logo" width="200" height="160">
  </a>
 
-  <h3 align="center">Indra Minsait / JavaScript Moderno 2023</h3>
+  <h3 align="center">antonio-valentin.dev / Documentation blog with web portfolio</h3>
 
   <p align="center">
-      JavaScript Guida Moderna para dominar el Lenguaje
+      Documentation blog with web portfolio in HTML,CSS and JavaScript
     <br />
   </p>
 </p>
@@ -42,7 +42,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][screenshot]](https://github.com/AntonioValentinSayago/.net6_angular_crud)
+[![Product Name Screen Shot][screenshot]](https://github.com/AntonioValentinSayago/minsait-valentin)
 
 Consuming different REST APIS with JSON and Fetch API + Async / Await, one of the most important topics as a JavaScript developer, 
 object-oriented programming with Classes (ES6) and Prototypes (ES5)
@@ -107,7 +107,7 @@ You will have to download.
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/AntonioValentinSayago/.net6_angular_crud/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/AntonioValentinSayago/minsait-valentin) for a list of proposed features (and known issues).
 
 
 
@@ -142,5 +142,5 @@ Project Link: [https://github.com/AntonioValentinSayago/minsait-valentin](https:
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[screenshot]: img/logo.png
-[screenshot01]: img/logo.png
+[screenshot]: img/demo.png
+[screenshot01]: app/img/logov1.png
