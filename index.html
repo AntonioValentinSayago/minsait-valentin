@@ -1,740 +1,1311 @@
+
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Name of your web site">
-    <meta name="author" content="Marketify">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Dizme | Home</title>
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="HTML5 Template Iteck Multi-Purpose themeforest" />
+    <meta name="description" content="Iteck - Multi-Purpose HTML5 Template" />
+    <meta name="author" content="" />
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <!-- Title  -->
+    <title>Iteck</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="src/img/fav.png" title="Favicon" sizes="16x16" />
+
+    <!-- ====== bootstrap icons cdn ====== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="src/css/lib/bootstrap.min.css">
+
+    <!-- ====== font family ====== -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="app/css/plugins.css" />
-    <link rel="stylesheet" type="text/css" href="app/css/dark.css" />
-    <link rel="stylesheet" type="text/css" href="app/css/style.css" />
-    <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 
+    <link rel="stylesheet" href="src/css/lib/all.min.css" />
+    <link rel="stylesheet" href="src/css/lib/animate.css" />
+    <link rel="stylesheet" href="src/css/lib/jquery.fancybox.css" />
+    <link rel="stylesheet" href="src/css/lib/lity.css" />
+    <link rel="stylesheet" href="src/css/lib/swiper.min.css" />
+    <!-- ====== global style ====== -->
+    <link rel="stylesheet" href="src/css/style.css" />
 </head>
 
 <body>
 
+    <!-- ====== start loading page ====== -->
+    <!-- <div id="preloader">
+    </div> -->
+    <!-- ---------- loader ---------- -->
     <div id="preloader">
-        <div class="loader_line"></div>
+        <div id="loading-wrapper" class="show">
+            <div id="loading-text"> <img src="app/img/logov1.png" alt=""> </div>
+            <div id="loading-content"></div>
+        </div>
     </div>
+    <!-- ====== end loading page ====== -->
 
 
-    <div class="dizme_tm_all_wrap" data-magic-cursor="show">
-
-        <div class="dizme_tm_mobile_menu">
-            <div class="mobile_menu_inner">
-                <div class="mobile_in">
-                    <div class="logo">
-                        <a href="#"><img src="app/img/logov1.png" alt /></a>
+    <!-- ====== start top navbar ====== -->
+    <div class="top-navbar style-1">
+        <div class="container">
+            <div class="content">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="top-links">
+                            <div class="text text-white">
+                                <i class="bi bi-exclamation-triangle"></i>
+                                <strong>Now Hiring:</strong>
+                                <span>Are you a driven and motivated <a href="#" class="p-0"><u>1st Line IT Support
+                                            Engineer?</u></a></span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="trigger">
-                        <div class="hamburger hamburger--slider">
-                            <div class="hamburger-box">
-                                <div class="hamburger-inner"></div>
+                    <div class="col-lg-4">
+                        <div class="r-side">
+                            <div class="socail-icons">
+                                <a href="#">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="me-1" src="src/img/lang.png" alt=""> English
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">French</a></li>
+                                    <li><a class="dropdown-item" href="#">Arabic</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="dropdown">
-                <div class="dropdown_inner">
-                    <ul class="anchor_nav">
-                        <li class="current"><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#service">Service</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li class="download_cv"><a href="img/cv/1.jpg" download><span>Download CV</span></a></li>
-                    </ul>
-                </div>
-            </div>
         </div>
+    </div>
+    <!-- ====== end top navbar ====== -->
 
 
-        <div class="dizme_tm_header">
-            <div class="container">
-                <div class="inner">
-                    <div class="logo">
-                        <a href="#"><img src="app/img/logov1.png" alt/></a>
-                    </div>
-                    <div class="menu">
-                        <ul class="anchor_nav">
-                            <li class="current"><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#service">Service</a></li>
-                            <li><a href="#blog">Blog</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li class="download_cv"><a href="img/cv/1.jpg" download><span>Download CV</span></a></li>
+    <!-- ====== start navbar ====== -->
+    <nav class="navbar navbar-expand-lg navbar-light style-1">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="app/img/logov1.png" alt="" width="50%">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Homes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="index.html"> Landing Preview  </a></li>
+                            <li><a class="dropdown-item" href="home-it-solutions2.html"> Creative It Solutions  </a></li>
+                            <li><a class="dropdown-item" href="home-data-analysis.html"> Data Analysis </a></li>
+                            <li><a class="dropdown-item" href="home-app-landing.html"> App Landing </a></li>
+                            <li><a class="dropdown-item" href="home-saas-technology.html"> Saas Technology </a></li>
+                            <li><a class="dropdown-item" href="home-marketing-startup.html"> Marketing Startup </a></li>
+                            <li><a class="dropdown-item" href="home-it-solutions.html"> It Solution </a></li>
+                            <li><a class="dropdown-item" href="home-software-company.html"> Software Company </a></li>
+                            <li><a class="dropdown-item" href="home-digital-agency.html"> Digital Agency </a></li>
+                            <li><a class="dropdown-item" href="home-shop-modern.html"> Modern Shop </a></li>
                         </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="page-about-5.html">about</a></li>
+                            <li><a class="dropdown-item" href="page-product-5.html">product</a></li>
+                            <li><a class="dropdown-item" href="page-services-5.html">services</a></li>
+                            <li><a class="dropdown-item" href="page-shop-5.html">shop</a></li>
+                            <li><a class="dropdown-item" href="page-single-project-5.html">single project</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page-portfolio-5.html">
+                            portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page-blog-5.html">
+                            blog
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page-contact-5.html">
+                            contact
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav-side">
+                    <div class="hotline pe-4">
+                        <div class="icon me-3">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <div class="cont">
+                            <small class="text-muted m-0">hotline 24/7</small>
+                            <h6>(+23) 5535 68 68</h6>
+                        </div>
+                    </div>
+                    <div class="qoute-nav ps-4">
+                        <a href="#" class="search-icon me-3">
+                            <i class="bi bi-search"></i>
+                        </a>
+                        <a href="#" class="cart-icon me-3">
+                            <i class="bi bi-cart"></i>
+                            <span class="cart-num">
+                                2
+                            </span>
+                        </a>
+                        <a href="page-contact-5.html" class="btn sm-butn butn-gard border-0 text-white">
+                            <span>Free Quote</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+    </nav>
+    <!-- ====== end navbar ====== -->
 
 
-        <div class="dizme_tm_section" id="home">
-            <div class="dizme_tm_hero">
-                <div class="background" data-img-url="app/img/slider.jpg"></div>
-                <div class="container">
-                    <div class="content">
-                        <div class="details">
-                            <div class="hello">
-                                <h3 class="orangeText">Hello, I'm</h3>
-                            </div>
-                            <div class="name">
-                                <h3>Antonio Valentiín</h3>
-                            </div>
-                            <div class="job">
-                                <p>A <span class="greenText">Front Developer</span> From <span class="purpleText">México</span></p>
+    <!-- ====== start header ====== -->
+    <header class="section-padding style-1">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="info">
+                            <div class="section-head mb-60">
+                                <h6 class="color-main text-uppercase">Iteck agency</h6>
+                                <h2>
+                                    Technology & IT <span class="fw-normal">Solutions</span>
+                                </h2>
                             </div>
                             <div class="text">
-                                <p>I'm a creative developer based in Mexico, and I'm very passionate and dedicated to my work.</p>
+                                We transform businesses of most major sectors with powerful and adaptable digital solutions that satisfy the needs of today.
                             </div>
-                            <div class="button">
-                                <div class="dizme_tm_button">
-                                    <a class="anchor" href="#about"><span>About Me</span></a>
-                                </div>
-                                <div class="social">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-cloud-upload"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="avatar">
-                            <div class="image">
-                                <img src="app/img/cesar.png" alt />
-                                <span class="skills illustrator anim_moveBottom"><img class="svg"
-                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt /></span>
-                                <span class="skills photoshop anim_moveBottom"><img class="svg"
-                                        src="https://www.webcomponents.org/assets/logo-192x192.png" alt /></span>
-                                <span class="skills figma anim_moveBottom"><img class="svg"
-                                        src="app/img/figma.svg" alt /></span>
+                            <div class="bttns mt-5">
+                                <a href="page-services-5.html" class="btn btn-dark">
+                                    <span>our services</span>
+                                </a>
+                                <a href="https://youtu.be/pGbIOC83-So?t=21" data-lity class="vid-btn">
+                                    <i class="bi bi-play-circle-fill heartBeat infinite slow wow"></i>
+                                    <span>
+                                        Iteck’s <br> Showreels
+                                    </span>
+                                </a>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-5 offset-lg-1">
+                        <div class="img">
+                            <img src="src/img/head.png" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="dizme_tm_down">
-                    <a class="anchor" href="#process">
-                        <svg width="26px" height="100%" viewbox="0 0 247 390" version="1.1"
-                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-                            <path id="wheel" d="M123.359,79.775l0,72.843"
-                                style="fill:none;stroke:#000;stroke-width:20px;" />
-                            <path id="mouse"
-                                d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z"
-                                style="fill:none;stroke:#000;stroke-width:20px;" />
-                        </svg>
+            </div>
+        </div>
+        <img src="src/img/head_shape_r.png" alt="" class="head-shape-r wow">
+        <img src="src/img/head_shape_l.png" alt="" class="head-shape-l wow">
+    </header>
+    <!-- ====== end header ====== -->
+
+
+    <!--Contents-->
+    <main>
+
+
+    <!-- ====== start about ====== -->
+    <section class="about style-1">
+        <div class="container">
+            <div class="content">
+                <div class="about-logos d-flex align-items-center justify-content-between border-bottom border-1 brd-light pb-20">
+                    <a href="#" class="logo wow fadeInUp" data-wow-delay="0">
+                        <img src="src/img/about/1.png" alt="">
+                    </a>
+                    <a href="#" class="logo wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="src/img/about/2.png" alt="">
+                    </a>
+                    <a href="#" class="logo wow fadeInUp" data-wow-delay="0.4s">
+                        <img src="src/img/about/3.png" alt="">
+                    </a>
+                    <a href="#" class="logo wow fadeInUp" data-wow-delay="0.6s">
+                        <img src="src/img/about/4.png" alt="">
+                    </a>
+                    <a href="#" class="logo wow fadeInUp" data-wow-delay="0.8s">
+                        <img src="src/img/about/5.png" alt="">
                     </a>
                 </div>
-            </div>
-        </div>
-
-        <div class="dizme_tm_section" id="about">
-            <div class="dizme_tm_about">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="left">
-                            <div class="image">
-                                <img src="app/img/1.jpg" alt />
-                                <div class="numbers year">
-                                    <div class="wrapper">
-                                        <h3><span class="dizme_tm_counter" data-from="0" data-to="18"
-                                                data-speed="2000">1</span></h3>
-                                        <span class="name">Año de <br />Experiencia</span>
-                                    </div>
-                                </div>
-                                <div class="numbers project">
-                                    <div class="wrapper">
-                                        <h3><span class="dizme_tm_counter" data-from="0" data-to="9"
-                                                data-speed="2000">10</span>+</h3>
-                                        <span class="name">Total<br />Projectos</span>
-                                    </div>
-                                </div>
+                <div class="about-info">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-5">
+                            <div class="title">
+                                <h3 class=" wow fadeInUp slow">“Technology is best when it brings people  together.”</h3>
+                                <small class=" wow fadeInUp slow fw-bold">Patricia Cross</small>
                             </div>
                         </div>
-                        <div class="right">
-                            <div class="title wow fadeInUp" data-wow-duration="1s">
-                                <span>I'm a Designer</span>
-                                <h3>I Can Design Anything You Want</h3>
-                            </div>
-                            <div class="text wow fadeInUp" data-wow-duration="1s">
-                                <p>Hello there! I'm a web designer, and I'm very passionate and dedicated to my work.
-                                    With 20 years experience as a professional web developer, I have acquired the skills
-                                    and knowledge necessary to make your project a success. I enjoy every step of the
-                                    design process, from discussion and collaboration.</p>
-                            </div>
-                            <div class="dizme_tm_button wow fadeInUp" data-wow-duration="1s">
-                                <a class="anchor" href="#contact"><span>Hire Me</span></a>
+                        <div class="col-lg-6">
+                            <div class="info">
+                                <h6 class=" wow fadeInUp slow">We can help to maintain and modernize your IT infrastructure  & solve various infrastructure-specific issues a business may face.</h6>
+                                <p class=" wow fadeInUp slow">Iteck Co is the partner of choice for many of the world’s leading  enterprises, SMEs and technology challengers. We help businesses  elevate their value through custom software development, product  design, QA and consultancy services.</p>    
+                                <a href="page-about-5.html" class="btn btn-outline-light mt-5 sm-butn wow fadeInUp slow">
+                                    <span>more about us</span>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="brush_1 wow fadeInLeft" data-wow-duration="1s"><img src="app/img/projects/5.png" alt />
+                <div class="about-numbers">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="num-item wow fadeInUp" data-wow-delay="0">
+                                <div class="num">
+                                    <span class="counter">
+                                        20 
+                                    </span>
+                                    <span>
+                                        <i class="bi bi-plus"></i>
+                                    </span>
+                                </div>
+                                <div class="inf">
+                                    Years of Experience
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="num-item wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="num">
+                                    <span class="counter">
+                                        15
+                                    </span>
+                                    <span>
+                                        K
+                                    </span>
+                                </div>
+                                <div class="inf">
+                                    Projects completed
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="num-item wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="num">
+                                    <span class="counter">
+                                        240
+                                    </span>
+                                </div>
+                                <div class="inf">
+                                    Awards achievied
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="num-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="num">
+                                    <span class="counter">
+                                        180
+                                    </span>
+                                </div>
+                                <div class="inf">
+                                    Satisfied clients on 24 countries
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="brush_2 wow fadeInRight" data-wow-duration="1s"><img src="app/img/features/5.png" alt />
+                <img src="src/img/about/num_shap.png" alt="" class="about_shap">
+            </div>
+        </div>
+    </section>
+    <!-- ====== end about ====== -->
+
+
+    <!-- ====== start services ====== -->
+    <section class="services section-padding style-1">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-lg-1">
+                    <div class="section-head mb-60">
+                        <h6 class="color-main text-uppercase wow fadeInUp">our services</h6>
+                        <h2 class="wow fadeInUp">
+                            Perfect IT Solutions <span class="fw-normal">For Your Business</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="service-box mb-4 wow fadeInUp" data-wow-delay="0">
+                            <h5>
+                                <a href="page-services-5.html"> IT Consultation </a> 
+                                <span class="num">01</span>
+                            </h5>
+                            <div class="icon">
+                                <img src="src/img/icons/1.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    Trust our top minds to eliminate workflow pain points, implement new tech & app.
+                                </div>
+                                <div class="tags">
+                                    <a href="#">Strategy</a>
+                                    <a href="#">Consultation</a>
+                                    <a href="#">Management</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-box mb-4 wow fadeInUp" data-wow-delay="0.2s">
+                            <h5>
+                                <a href="page-services-5.html"> Data Security </a> 
+                                <span class="num">02</span>
+                            </h5>
+                            <div class="icon">
+                                <img src="src/img/icons/2.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    Trust our top minds to eliminate workflow pain points, implement new tech & app.
+                                </div>
+                                <div class="tags">
+                                    <a href="#">Management</a>
+                                    <a href="#">Backup & Recovery</a>
+                                    <a href="#">Transfer</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-box mb-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <h5>
+                                <a href="page-services-5.html"> Website Development </a> 
+                                <span class="num">03</span>
+                            </h5>
+                            <div class="icon">
+                                <img src="src/img/icons/3.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    Trust our top minds to eliminate workflow pain points, implement new tech & app.
+                                </div>
+                                <div class="tags">
+                                    <a href="#">Ecommerce</a>
+                                    <a href="#">Landing Page</a>
+                                    <a href="#">CMS</a>
+                                    <a href="#">Plugin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-box mb-4 mb-md-0 wow fadeInUp" data-wow-delay="0">
+                            <h5>
+                                <a href="page-services-5.html"> UI/UX Design </a> 
+                                <span class="num">04</span>
+                            </h5>
+                            <div class="icon">
+                                <img src="src/img/icons/4.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    Trust our top minds to eliminate workflow pain points, implement new tech & app.
+                                </div>
+                                <div class="tags">
+                                    <a href="#">Website</a>
+                                    <a href="#">Mobile App</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-box mb-4 mb-md-0 wow fadeInUp" data-wow-delay="0.2s">
+                            <h5>
+                                <a href="page-services-5.html"> Cloud Services </a> 
+                                <span class="num">05</span>
+                            </h5>
+                            <div class="icon">
+                                <img src="src/img/icons/5.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    Trust our top minds to eliminate workflow pain points, implement new tech & app.
+                                </div>
+                                <div class="tags">
+                                    <a href="#">Cloud Storerage</a>
+                                    <a href="#">Hosting & VPS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
+                            <h5>
+                                <a href="page-services-5.html"> Game Development </a> 
+                                <span class="num">06</span>
+                            </h5>
+                            <div class="icon">
+                                <img src="src/img/icons/6.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="text">
+                                    Trust our top minds to eliminate workflow pain points, implement new tech & app.
+                                </div>
+                                <div class="tags">
+                                    <a href="#">Unity 2D/3D</a>
+                                    <a href="#">VR/AR</a>
+                                    <a href="#">iOS & Android</a>
+                                    <a href="#">HTC Vive</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <img src="src/img/services/ser_shap_l.png" alt="" class="ser_shap_l">
+        <img src="src/img/services/ser_shap_r.png" alt="" class="ser_shap_r">
+    </section>
+    <!-- ====== end services ====== -->
 
 
-        <div class="dizme_tm_section" id="portfolio">
-            <div class="dizme_tm_portfolio">
-                <div class="container">
-                    <div class="dizme_tm_main_title" data-align="center">
-                        <span>Portfolio</span>
-                        <h3>My Amazing Works</h3>
-                        <p>Most common methods for designing websites that work well on desktop is responsive and
-                            adaptive design</p>
-                    </div>
-                    <div class="portfolio_filter">
+    <!-- ====== start choose-us====== -->
+    <section class="choose-us section-padding pt-0 style-1">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-5">
+                    <div class="info">
+                        <div class="section-head mb-60">
+                            <h6 class="color-main text-uppercase wow fadeInUp">Why choose us</h6>
+                            <h2 class="wow fadeInUp">
+                                Boost Your Business <span class="fw-normal">With New Tech</span>
+                            </h2>
+                        </div>
+                        <div class="text">
+                            Our team can assist you in transforming your business through latest tech capabilities to stay ahead of the curve.
+                        </div>
                         <ul>
-                            <li><a href="#" class="current" data-filter="*">All</a></li>
-                            <li><a href="#" data-filter=".youtube">Youtube</a></li>
-                            <li><a href="#" data-filter=".vimeo">Vimeo</a></li>
-                            <li><a href="#" data-filter=".soundcloud">Soundcloud</a></li>
-                            <li><a href="#" data-filter=".popup">Popup</a></li>
-                            <li><a href="#" data-filter=".detail">Detail</a></li>
-                        </ul>
-                    </div>
-                    <div class="dizme_tm_portfolio_titles"></div>
-                    <div class="portfolio_list wow fadeInUp" data-wow-duration="1s">
-                        <ul class="gallery_zoom grid">
-                            <li class="youtube grid-item">
-                                <div class="inner">
-                                    <div class="entry dizme_tm_portfolio_animation_wrap" data-title="Mockup Shape"
-                                        data-category="Youtube">
-                                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas">
-                                            <img src="app/img/projects/42-56.jpg" alt />
-                                            <div class="main" data-img-url="app/img/projects/1.jpg"></div>
-                                        </a>
-                                    </div>
-                                    <div class="mobile_title">
-                                        <h3>Mockup Shape</h3>
-                                        <span>Youtube</span>
-                                    </div>
-                                </div>
+                            <li class="wow fadeInUp">
+                                <span class="icon">
+                                    <i class="bi bi-check2"></i>
+                                </span>
+                                <h6>
+                                    Latest IT Solutions & Integration With Blockchain
+                                </h6>
                             </li>
-                            <li class="vimeo grid-item">
-                                <div class="inner">
-                                    <div class="entry dizme_tm_portfolio_animation_wrap" data-title="Ave Bottle"
-                                        data-category="Vimeo">
-                                        <a class="popup-vimeo" href="https://vimeo.com/337293658">
-                                            <img src="app/img/projects/42-34.jpg" alt />
-                                            <div class="main" data-img-url="app/img/projects/2.jpg"></div>
-                                        </a>
-                                    </div>
-                                    <div class="mobile_title">
-                                        <h3>Ave Bottle</h3>
-                                        <span>Vimeo</span>
-                                    </div>
-                                </div>
+                            <li class="wow fadeInUp">
+                                <span class="icon">
+                                    <i class="bi bi-check2"></i>
+                                </span>
+                                <h6>
+                                    Over 100+ Payment Gateways Support
+                                </h6>
                             </li>
-                            <li class="soundcloud grid-item">
-                                <div class="inner">
-                                    <div class="entry dizme_tm_portfolio_animation_wrap" data-title="Magic Art"
-                                        data-category="Soundcloud">
-                                        <a class="soundcloude_link mfp-iframe audio"
-                                            href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-                                            <img src="app/img/projects/42-56.jpg" alt />
-                                            <div class="main" data-img-url="app/img/projects/3.jpg"></div>
-                                        </a>
-                                    </div>
-                                    <div class="mobile_title">
-                                        <h3>Magic Art</h3>
-                                        <span>Soundcloud</span>
-                                    </div>
-                                </div>
+                            <li class="wow fadeInUp">
+                                <span class="icon">
+                                    <i class="bi bi-check2"></i>
+                                </span>
+                                <h6>
+                                    AI Machine & Deep Learning
+                                </h6>
                             </li>
-                            <li class="popup grid-item">
-                                <div class="inner">
-                                    <div class="entry dizme_tm_portfolio_animation_wrap" data-title="Scott Felix"
-                                        data-category="Popup">
-                                        <a class="zoom" href="app/img/projects/5.jpg">
-                                            <img src="app/img/projects/42-56.jpg" alt />
-                                            <div class="main" data-img-url="app/img/projects/5.jpg"></div>
-                                        </a>
-                                    </div>
-                                    <div class="mobile_title">
-                                        <h3>Blue Lemon</h3>
-                                        <span>Popup</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="popup grid-item">
-                                <div class="inner">
-                                    <div class="entry dizme_tm_portfolio_animation_wrap" data-title="Art Stone"
-                                        data-category="Popup">
-                                        <a class="zoom" href="app/img/projects/4.jpg">
-                                            <img src="app/img/projects/42-34.jpg" alt />
-                                            <div class="main" data-img-url="app/img/projects/4.jpg"></div>
-                                        </a>
-                                    </div>
-                                    <div class="mobile_title">
-                                        <h3>Art Stone</h3>
-                                        <span>Popup</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="detail grid-item">
-                                <div class="inner">
-                                    <div class="entry dizme_tm_portfolio_animation_wrap" data-title="Global Evolution"
-                                        data-category="Detail">
-                                        <a class="portfolio_popup" href="#">
-                                            <img src="app/img/projects/42-34.jpg" alt />
-                                            <div class="main" data-img-url="app/img/projects/6.jpg"></div>
-                                        </a>
-                                    </div>
-                                    <div class="mobile_title">
-                                        <h3>Global Evolution</h3>
-                                        <span>Detail</span>
-                                    </div>
-                                    <div class="hidden_content">
-                                        <div class="popup_details">
-                                            <div class="main_details">
-                                                <div class="textbox">
-                                                    <p>We live in a world where we need to move quickly and iterate on
-                                                        our ideas as flexibly as possible.</p>
-                                                    <p>Mockups are useful both for the creative phase of the project -
-                                                        for instance when you're trying to figure out your user flows or
-                                                        the proper visual hierarchy - and the production phase when they
-                                                        phase when they will represent the target product. Building
-                                                        mockups strikes the ideal balance ease of modification.</p>
-                                                </div>
-                                                <div class="detailbox">
-                                                    <ul>
-                                                        <li>
-                                                            <span class="first">Client</span>
-                                                            <span>Alvaro Morata</span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="first">Category</span>
-                                                            <span><a href="#">Detail</a></span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="first">Date</span>
-                                                            <span>March 07, 2021</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="additional_images">
-                                                <ul>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <div class="my_image">
-                                                                <img src="app/img//projects/42-56.jpg" alt />
-                                                                <div class="main" data-img-url="app/img/projects/1.jpg">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <div class="my_image">
-                                                                <img src="app/img/projects/42-34.jpg" alt />
-                                                                <div class="main" data-img-url="app/img/projects/2.jpg">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <div class="my_image">
-                                                                <img src="app/img/projects/42-56.jpg" alt />
-                                                                <div class="main" data-img-url="app/img/projects/3.jpg">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <li class="wow fadeInUp">
+                                <span class="icon">
+                                    <i class="bi bi-check2"></i>
+                                </span>
+                                <h6>
+                                    Dedicated Support 24/7
+                                </h6>
                             </li>
                         </ul>
+
+                        <a href="page-about-5.html" class="btn butn-gard border-0 text-white wow fadeInUp">
+                            <span>How We Works</span>
+                        </a>
                     </div>
                 </div>
-                <div class="brush_1 wow zoomIn" data-wow-duration="1s"><img src="app/img/projects/1.png" alt />
-                </div>
-                <div class="brush_2 wow fadeInRight" data-wow-duration="1s"><img src="app/img/projects/2.png"
-                        alt /></div>
             </div>
         </div>
+        <img src="src/img/services/choose_lines.svg" alt="" class="choose-us-img">
+        <img src="src/img/services/choose_brands.png" alt="" class="choose-us-brands">        
+        <img src="src/img/services/choose_bubbles.png" alt="" class="choose-us-bubbles">        
+    </section>
+    <!-- ====== end choose-us====== -->
 
 
-        <div class="dizme_tm_section">
-            <div class="dizme_tm_skills">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="left">
-                            <div class="dizme_tm_main_title wow fadeInUp" data-wow-duration="1s" data-align="left">
-                                <span>Design is Life</span>
-                                <h3>I Develop Skills Regularly to Keep Me Update</h3>
-                                <p>Most common methods for designing websites that work well on desktop is responsive
-                                    and adaptive design</p>
+    <!-- ====== start portfolio ====== -->
+    <section class="portfolio section-padding bg-gray style-1">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-lg-1">
+                    <div class="section-head mb-60">
+                        <h6 class="color-main text-uppercase wow fadeInUp">Portfolio</h6>
+                        <h2 class="wow fadeInUp">
+                            Latest Projects <span class="fw-normal">From Our Team</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="content wow fadeIn slow">
+                <div class="portfolio-slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="portfolio-card">
+                                    <div class="img">
+                                        <img src="src/img/projects/1.jpeg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>
+                                            <a href="page-single-project-5.html"> Infrastructure Upgrade </a> 
+                                        </h5>
+                                        <small class="d-block color-main text-uppercase"><a href="#">IT Consultation</a></small>
+                                        <div class="text">
+                                            Trust our top minds to eliminate workflow pain points, implement new tech & app.
+                                        </div>
+                                        <div class="tags">
+                                            <a href="#">Consultation</a>
+                                            <a href="#">Management</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="dodo_progress wow fadeInUp" data-wow-duration="1s">
-                                <div class="progress_inner" data-value="85" data-color="#f75023">
-                                    <span><span class="label">Illustrator</span><span class="number">85%</span></span>
-                                    <div class="background">
-                                        <div class="bar">
-                                            <div class="bar_in"></div>
+                            <div class="swiper-slide">
+                                <div class="portfolio-card">
+                                    <div class="img">
+                                        <img src="src/img/projects/2.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>
+                                            <a href="page-single-project-5.html"> Criftocy Landing Page </a> 
+                                        </h5>
+                                        <small class="d-block color-main text-uppercase"><a href="#">Website Development,</a> <a href="#">UI/UX Design</a></small>
+                                        <div class="text">
+                                            Trust our top minds to eliminate workflow pain points, implement new tech & app.
+                                        </div>
+                                        <div class="tags">
+                                            <a href="#">WordPress</a>
+                                            <a href="#">PHP</a>
+                                            <a href="#">HTML/CSS</a>
+                                            <a href="#">Figma</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="progress_inner" data-value="95" data-color="#1cbe59">
-                                    <span><span class="label">Photoshop</span><span class="number">95%</span></span>
-                                    <div class="background">
-                                        <div class="bar">
-                                            <div class="bar_in"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="portfolio-card">
+                                    <div class="img">
+                                        <img src="src/img/projects/3.jpeg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>
+                                            <a href="page-single-project-5.html"> AR/VR War 1986 Game </a> 
+                                        </h5>
+                                        <small class="d-block color-main text-uppercase"><a href="#">Game Developemnt</a></small>
+                                        <div class="text">
+                                            Trust our top minds to eliminate workflow pain points, implement new tech & app.
+                                        </div>
+                                        <div class="tags">
+                                            <a href="#">VR/AR</a>
+                                            <a href="#">iOS & Android</a>
+                                            <a href="#">Unity 2D/3D</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="progress_inner" data-value="75" data-color="#8067f0">
-                                    <span><span class="label">Figma</span><span class="number">75%</span></span>
-                                    <div class="background">
-                                        <div class="bar">
-                                            <div class="bar_in"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="portfolio-card">
+                                    <div class="img">
+                                        <img src="src/img/projects/2.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>
+                                            <a href="page-single-project-5.html"> Criftocy Landing Page </a> 
+                                        </h5>
+                                        <small class="d-block color-main text-uppercase"><a href="#">Website Development,</a> <a href="#">UI/UX Design</a></small>
+                                        <div class="text">
+                                            Trust our top minds to eliminate workflow pain points, implement new tech & app.
+                                        </div>
+                                        <div class="tags">
+                                            <a href="#">WordPress</a>
+                                            <a href="#">PHP</a>
+                                            <a href="#">HTML/CSS</a>
+                                            <a href="#">Figma</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="right">
-                            <img src="app/img/2.jpg" alt />
+                    </div>
+
+                    <!-- ====== slider pagination ====== -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- ====== slider navigation ====== -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+        <img src="src/img/projects/shap_r.png" alt="" class="shap_r">
+        <img src="src/img/projects/shap_l.png" alt="" class="shap_l">
+    </section>
+    <!-- ====== end portfolio ====== -->
+
+    
+    <!-- ====== start testimonials ====== -->
+    <section class="testimonials section-padding style-1">
+        <div class="container">
+            <div class="section-head mb-60 text-center">
+                <h6 class="color-main text-uppercase wow fadeInUp">testimonials</h6>
+                <h2 class="wow fadeInUp">
+                    The Trust <span class="fw-normal">From Clients</span>
+                </h2>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="vid_img mb-2 mb-md-0 wow zoomIn slow">
+                            <img src="src/img/testimonials/testi.jpeg" alt="">
+                            <a href="https://youtu.be/pGbIOC83-So?t=21" data-lity class="play_icon">
+                                <i class="bi bi-play"></i>
+                            </a>
+                            <div class="img_info wow fadeInUp">
+                                <h4><a href="#">Casper Defloy</a></h4>
+                                <small><a href="#">Tech Leader at Esty Inc</a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="info wow fadeInUp">
+                            <div class="client_card mb-2" data-wow-delay="0">
+                                <div class="user_img">
+                                    <img src="src/img/testimonials/user1.jpeg" alt="">
+                                </div>
+                                <div class="inf_content">
+                                    <div class="rate_stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <h6>
+                                        “Iteck provide perfect IT solutions, fast process and affordable price. We’re really satisfied!”
+                                    </h6>
+                                    <p>Ibrahima K.  <span class="text-muted">/  Senior Marketing at Amazon</span></p>
+                                </div>
+                            </div>
+                            <div class="client_card mb-2" data-wow-delay="0.2s">
+                                <div class="user_img">
+                                    <img src="src/img/testimonials/user2.jpeg" alt="">
+                                </div>
+                                <div class="inf_content">
+                                    <div class="rate_stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <h6>
+                                        “Iteck - 1st my choice for cloud services method”
+                                    </h6>
+                                    <p> Ben S.  <span class="text-muted">/  CEO at ThemesCamp</span></p>
+                                </div>
+                            </div>
+                            <div class="client_card" data-wow-delay="0.4s">
+                                <div class="user_img">
+                                    <img src="src/img/testimonials/user3.jpeg" alt="">
+                                </div>
+                                <div class="inf_content">
+                                    <div class="rate_stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <h6>
+                                        “Our profit increased so much. Really Awesome!”
+                                    </h6>
+                                    <p>Alexander A.  <span class="text-muted">/  Tech Leader of Traveloka</span></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- ====== end testimonials ====== -->
 
-        <div class="dizme_tm_section">
-            <div class="dizme_tm_partners">
-                <div class="container">
-                    <div class="partners_inner">
-                        <ul>
-                            <li class="wow fadeIn" data-wow-duration="1s">
-                                <div class="list_inner">
-                                    <img src="app/img/parthes/1.png" alt />
-                                    <a class="dizme_tm_full_link" a href="#"></a>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                                <div class="list_inner">
-                                    <img src="app/img/parthes/2.png" alt />
-                                    <a class="dizme_tm_full_link" a href="#"></a>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
-                                <div class="list_inner">
-                                    <img src="app/img/parthes/3.png" alt />
-                                    <a class="dizme_tm_full_link" a href="#"></a>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-                                <div class="list_inner">
-                                    <img src="app/img/parthes/4.png" alt />
-                                    <a class="dizme_tm_full_link" a href="#"></a>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-duration="1s">
-                                <div class="list_inner">
-                                    <img src="app/img/parthes/5.png" alt />
-                                    <a class="dizme_tm_full_link" a href="#"></a>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                                <div class="list_inner">
-                                    <img src="app/img/parthes/6.png" alt />
-                                    <a class="dizme_tm_full_link" a href="#"></a>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
-                                <div class="list_inner">
-                                    <img src="app/img/parthes/7.png" alt />
-                                    <a class="dizme_tm_full_link" a href="#"></a>
-                                </div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-                                <div class="list_inner">
-                                    <img src="app/img/parthes/8.png" alt />
-                                    <a class="dizme_tm_full_link" a href="#"></a>
-                                </div>
-                            </li>
-                        </ul>
+    <!-- ====== start team ====== -->
+    <section class="team section-padding pt-0 style-1">
+        <div class="container">
+            <div class="section-head mb-60 text-center">
+                <h6 class="color-main text-uppercase wow fadeInUp">meet our expert</h6>
+                <h2 class="wow fadeInUp">
+                    Clients Satisfaction, <span class="fw-normal">Our Reputation</span>
+                </h2>
+            </div>
+            <div class="content">
+                <div class="team_box wow fadeInUp" data-wow-delay="0">
+                    <div class="avatar">
+                        <img src="src/img/team/1.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h6><a href="#">Michael Edwards</a></h6>
+                        <small>CEO Founder</small>
+                        <div class="social_icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="brush_1 wow fadeInLeft" data-wow-duration="1s"><img src="app/img/parthes/9.png" alt />
+                <div class="team_box wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="avatar">
+                        <img src="src/img/team/2.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h6><a href="#">Bobby Kane</a></h6>
+                        <small>CTO</small>
+                        <div class="social_icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team_box wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="avatar">
+                        <img src="src/img/team/3.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h6><a href="#">Robert Downey Jr</a></h6>
+                        <small>Project Manager</small>
+                        <div class="social_icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team_box wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="avatar">
+                        <img src="src/img/team/4.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h6><a href="#">Andrew Robertson</a></h6>
+                        <small>Marketing Leader</small>
+                        <div class="social_icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team_box wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="avatar">
+                        <img src="src/img/team/5.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h6><a href="#">Alexander Avery</a></h6>
+                        <small>Creative Director</small>
+                        <div class="social_icons">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bttns mt-4 text-center">
+                <a href="page-about-5.html" class="btn btn-dark wow zoomIn">
+                    <span>See All Team</span>
+                </a>
+                <a href="page-contact-5.html" class="btn butn-gard border-0 text-white wow zoomIn">
+                    <span>Join Our Team</span>
+                </a>
+            </div>
+        </div>
+        <img src="src/img/team/team_shap.png" alt="" class="team_shap">
+    </section>
+    <!-- ====== end team ====== -->
+
+    <!-- ====== start blog ====== -->
+    <section class="blog section-padding bg-gray style-1">
+        <div class="container">
+            <div class="row">
+                <div class="col offset-lg-1">
+                    <div class="section-head mb-60">
+                        <h6 class="color-main text-uppercase wow fadeInUp">our press</h6>
+                        <h2 class="wow fadeInUp">
+                            Latest Posts <span class="fw-normal">From Our Press</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="blog_slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="blog_box">
+                                    <div class="tags">
+                                        <a href="#">news</a>
+                                    </div>
+                                    <div class="img">
+                                        <img src="src/img/blog/1.jpeg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h6><a href="page-single-post-5.html">Crypto Trends 2023</a></h6>
+                                        <div class="auther">
+                                            <span>
+                                                <img class="auther-img" src="src/img/testimonials/user1.jpeg" alt="">
+                                                <small><a href="#">By Admin</a></small>
+                                            </span>
+                                            <span>
+                                                <i class="bi bi-calendar2"></i>
+                                                <small><a href="#">May 15, 2022</a></small>
+                                            </span>
+                                        </div>
+                                        <div class="text">
+                                            If there’s one way that wireless technology has changed the way we work, it’s that will everyone is now connected [...]
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="blog_box">
+                                    <div class="tags">
+                                        <a href="#">technology</a>
+                                    </div>
+                                    <div class="img">
+                                        <img src="src/img/blog/2.jpeg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h6><a href="page-single-post-5.html">How To Become Web Developer</a></h6>
+                                        <div class="auther">
+                                            <span>
+                                                <img class="auther-img" src="src/img/testimonials/user2.jpeg" alt="">
+                                                <small><a href="#">By Moussa</a></small>
+                                            </span>
+                                            <span>
+                                                <i class="bi bi-calendar2"></i>
+                                                <small><a href="#">May 15, 2022</a></small>
+                                            </span>
+                                        </div>
+                                        <div class="text">
+                                            If there’s one way that wireless technology has changed the way we work, it’s that will everyone is now connected [...]
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="blog_box">
+                                    <div class="tags">
+                                        <a href="#">tips & tricks</a>
+                                    </div>
+                                    <div class="img">
+                                        <img src="src/img/blog/3.jpeg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h6><a href="page-single-post-5.html">Wireframe For UI/UX?</a></h6>
+                                        <div class="auther">
+                                            <span>
+                                                <img class="auther-img" src="src/img/testimonials/user3.jpeg" alt="">
+                                                <small><a href="#">By Admin</a></small>
+                                            </span>
+                                            <span>
+                                                <i class="bi bi-calendar2"></i>
+                                                <small><a href="#">May 15, 2022</a></small>
+                                            </span>
+                                        </div>
+                                        <div class="text">
+                                            If there’s one way that wireless technology has changed the way we work, it’s that will everyone is now connected [...]
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="blog_box">
+                                    <div class="tags">
+                                        <a href="#">news</a>
+                                    </div>
+                                    <div class="img">
+                                        <img src="src/img/blog/4.jpeg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h6><a href="page-single-post-5.html">VR Game, Opportunity & Challenge</a></h6>
+                                        <div class="auther">
+                                            <span>
+                                                <img class="auther-img" src="src/img/testimonials/user1.jpeg" alt="">
+                                                <small><a href="#">By David</a></small>
+                                            </span>
+                                            <span>
+                                                <i class="bi bi-calendar2"></i>
+                                                <small><a href="#">May 15, 2022</a></small>
+                                            </span>
+                                        </div>
+                                        <div class="text">
+                                            If there’s one way that wireless technology has changed the way we work, it’s that will everyone is now connected [...]
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="blog_box">
+                                    <div class="tags">
+                                        <a href="#">technology</a>
+                                    </div>
+                                    <div class="img">
+                                        <img src="src/img/blog/2.jpeg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h6><a href="page-single-post-5.html">How To Become Web Developer</a></h6>
+                                        <div class="auther">
+                                            <span>
+                                                <img class="auther-img" src="src/img/testimonials/user2.jpeg" alt="">
+                                                <small><a href="#">By Moussa</a></small>
+                                            </span>
+                                            <span>
+                                                <i class="bi bi-calendar2"></i>
+                                                <small><a href="#">May 15, 2022</a></small>
+                                            </span>
+                                        </div>
+                                        <div class="text">
+                                            If there’s one way that wireless technology has changed the way we work, it’s that will everyone is now connected [...]
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ====== slider navigation ====== -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- ====== end blog ====== -->
 
 
-        <div class="dizme_tm_section" id="blog">
-            <div class="dizme_tm_news">
-                <div class="container">
-                    <div class="dizme_tm_main_title" data-align="center">
-                        <span>From My Blog</span>
-                        <h3>Our Recent Updates, Blog, Tips, Tricks &amp; More</h3>
-                    </div>
-                    <div class="news_list">
-                        <ul>
-                            <li class="wow fadeInUp" data-wow-duration="1s">
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="app/img/thumbs/42-29.jpg" alt />
-                                        <div class="main" data-img-url="app/img/thumbs/1.jpg"></div>
-                                        <div class="date">
-                                            <h3>23</h3>
-                                            <span>Dec</span>
-                                        </div>
-                                        <a class="dizme_tm_full_link" href="#"></a>
-                                    </div>
-                                    <div class="details">
-                                        <span class="category"><a href="#">Web Development</a></span>
-                                        <h3 class="title"><a href="#">Jim Morisson Says when the musics over turn off
-                                                the light</a></h3>
-                                    </div>
-                                    <div class="news_hidden_details">
-                                        <div class="news_popup_informations">
-                                            <div class="text">
-                                                <p>Dizme is a leading web design agency with an award-winning design
-                                                    team that creates innovative, effective websites that capture your
-                                                    brand, improve your conversion rates, and maximize your revenue to
-                                                    help grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction
-                                                    consumers have with your business. That's why almost 95 percent of a
-                                                    user’s first impression relates to web design. It’s also why web
-                                                    design services can have an immense impact on your company’s bottom
-                                                    line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s
-                                                    design but also partnering with Kura, the web design agency that’s
-                                                    driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a
-                                                    custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="app/img/thumbs/42-29.jpg" alt />
-                                        <div class="main" data-img-url="app/img/thumbs//2.jpg"></div>
-                                        <div class="date">
-                                            <h3>23</h3>
-                                            <span>Dec</span>
-                                        </div>
-                                        <a class="dizme_tm_full_link" href="#"></a>
-                                    </div>
-                                    <div class="details">
-                                        <span class="category"><a href="#">Branding</a></span>
-                                        <h3 class="title"><a href="#">How to be appreciated for your hard work as a
-                                                developer</a></h3>
-                                    </div>
-                                    <div class="news_hidden_details">
-                                        <div class="news_popup_informations">
-                                            <div class="text">
-                                                <p>Dizme is a leading web design agency with an award-winning design
-                                                    team that creates innovative, effective websites that capture your
-                                                    brand, improve your conversion rates, and maximize your revenue to
-                                                    help grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction
-                                                    consumers have with your business. That's why almost 95 percent of a
-                                                    user’s first impression relates to web design. It’s also why web
-                                                    design services can have an immense impact on your company’s bottom
-                                                    line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s
-                                                    design but also partnering with Kura, the web design agency that’s
-                                                    driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a
-                                                    custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="app/img/thumbs/42-29.jpg" alt />
-                                        <div class="main" data-img-url="app/img/thumbs/3.jpg"></div>
-                                        <div class="date">
-                                            <h3>23</h3>
-                                            <span>Dec</span>
-                                        </div>
-                                        <a class="dizme_tm_full_link" href="#"></a>
-                                    </div>
-                                    <div class="details">
-                                        <span class="category"><a href="#">Social Media</a></span>
-                                        <h3 class="title"><a href="#">How designers and developers can collaborate
-                                                better</a></h3>
-                                    </div>
-                                    <div class="news_hidden_details">
-                                        <div class="news_popup_informations">
-                                            <div class="text">
-                                                <p>Dizme is a leading web design agency with an award-winning design
-                                                    team that creates innovative, effective websites that capture your
-                                                    brand, improve your conversion rates, and maximize your revenue to
-                                                    help grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction
-                                                    consumers have with your business. That's why almost 95 percent of a
-                                                    user’s first impression relates to web design. It’s also why web
-                                                    design services can have an immense impact on your company’s bottom
-                                                    line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s
-                                                    design but also partnering with Kura, the web design agency that’s
-                                                    driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a
-                                                    custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="brush_1 wow zoomIn" data-wow-duration="1s"><img src="app/img/thumbs/1.png" alt /></div>
-                <div class="brush_2 wow zoomIn" data-wow-duration="1s"><img src="app/img/thumbs/2.png" alt /></div>
+    <!-- ====== start contact ====== -->
+    <section class="contact section-padding bg-gradient style-1">
+        <div class="container">
+            <div class="section-head mb-60 text-center">
+                <h6 class="text-white text-uppercase wow fadeInUp">contact us</h6>
+                <h2 class="wow fadeInUp text-white">
+                    Request Free <span class="fw-normal">Consultancy</span>
+                </h2>
             </div>
-        </div>
-
-        <div class="dizme_tm_section" id="contact">
-            <div class="dizme_tm_contact">
-                <div class="container">
-                    <div class="dizme_tm_main_title" data-align="center">
-                        <span>Contact Me</span>
-                        <h3>I Want To Hear From You</h3>
-                        <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and
-                            8:00 p.m. ET, Monday through Friday</p>
-                    </div>
-                    <div class="contact_inner">
-                        <div class="left wow fadeInLeft" data-wow-duration="1s">
+            <div class="content">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="contact_info text-white">
+                            <p class="wow fadeInUp">Hotline 24/7</p>
+                            <h4 class="wow fadeInUp">(+23) 5535 68 68</h4>
                             <ul>
-                                <li>
-                                    <div class="list_inner">
-                                        <div class="icon orangeBackground">
-                                            <i class="fa fa-map-marker orangeText"></i>
-                                        </div>
-                                        <div class="short">
-                                            <h3>Address</h3>
-                                            <span>20, Somewhere in world</span>
-                                        </div>
-                                    </div>
+                                <li class="wow fadeInUp">
+                                    <strong>Address : </strong> 58 Howard Street,  San Francisco, CA 941
                                 </li>
-                                <li>
-                                    <div class="list_inner">
-                                        <div class="icon greenBackground">
-                                            <i class="fa fa-envelope greenText"></i>
-                                        </div>
-                                        <div class="short">
-                                            <h3>Email</h3>
-                                            <span><a href="#"><span class="__cf_email__"
-                                                        data-cfemail="2a424f4646456a4e4350474f04494547">[email&#160;protected]</span></a></span>
-                                        </div>
-                                    </div>
+                                <li class="wow fadeInUp">
+                                    <strong>Email : </strong> contact@Iteck.co
                                 </li>
-                                <li>
-                                    <div class="list_inner">
-                                        <div class="icon purpleBackground">
-                                            <i class="fa fa-phone-square purpleText"></i>
-                                        </div>
-                                        <div class="short">
-                                            <h3>Phone</h3>
-                                            <span>+123 456 7890</span>
-                                        </div>
-                                    </div>
+                                <li class="wow fadeInUp">
+                                    <strong>Fax : </strong> fax@Iteck.co
+                                </li>
+                                <li class="wow fadeInUp">
+                                    <strong>Work Hour : </strong> Mon - Sat: 9:00 - 18:00
                                 </li>
                             </ul>
+                            <a href="#" class="wow fadeInUp">get direction</a>
                         </div>
-                        <div class="right wow fadeInRight" data-wow-duration="1s">
-                            <div class="fields">
-                                <form action="/" method="post" class="contact_form" id="contact_form"
-                                    autocomplete="off">
-                                    <div class="returnmessage"
-                                        data-success="Your message has been received, We will contact you soon."></div>
-                                    <div class="empty_notice"><span>Please Fill Required Fields</span></div>
-                                    <div class="input_list">
-                                        <ul>
-                                            <li><input id="name" type="text" placeholder="Your Name" /></li>
-                                            <li><input id="email" type="text" placeholder="Your Email" /></li>
-                                            <li><input id="phone" type="number" placeholder="Your Phone" /></li>
-                                            <li><input id="subject" type="text" placeholder="Subject" /></li>
-                                        </ul>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1">
+                        <form class="contact_form" action="contact.php" method="post"> 
+                            <div class="row gx-3">
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-3 wow fadeInUp">
+                                        <input type="text" name="name" class="form-control" placeholder="name *">
                                     </div>
-                                    <div class="message_area">
-                                        <textarea id="message" placeholder="Write your message here"></textarea>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-3 wow fadeInUp">
+                                        <input type="text" name="email" class="form-control" placeholder="Email Address *">
                                     </div>
-                                    <div class="dizme_tm_button">
-                                        <a id="send_message" href="#"><span>Submit Now</span></a>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group mb-3 wow fadeInUp">
+                                        <select  name="option" class="form-select" aria-label="Default select example">
+                                            <option selected>Your inquiry about</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
                                     </div>
-                                </form>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group mb-3 wow fadeInUp">
+                                        <textarea class="form-control" rows="4" placeholder="Write your inquiry here"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-check mb-4 wow fadeInUp">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label text-light small" for="flexCheckDefault">
+                                            By submitting, i’m agreed to the <a href="#" class="text-decoration-underline">Terms & Conditons</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="submit" value="Request Now" class="btn btn-dark wow fadeInUp text-light fs-14px">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="src/img/blog/contact_globe.svg" alt="" class="contact_globe">
+    </section>
+    <!-- ====== end contact ====== -->
+</main>
+    <!--End-Contents-->
+
+
+    <!-- ====== start footer ====== -->
+    <footer class="style-1">
+        <div class="container">
+            <div class="content">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="foot_info">
+                            <a href="#" class="logo mb-3">
+                                <img src="app/img/logov1.png" alt="">
+                            </a>
+                            <div class="text mb-4">
+                                Best IT Solutions & Technology WordPress <br> Theme for Your Busines
+                            </div>
+                            <ul class="mb-4">
+                                <li class="d-flex">
+                                    <i class="bi bi-house me-3"></i>
+                                    <a href="#">
+                                        <span>58 Howard St, San Francisco, CA 941</span>
+                                    </a>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="bi bi-envelope me-3"></i>
+                                    <a href="#">
+                                        <span>contact@Iteck.co</span>
+                                    </a>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="bi bi-phone me-3"></i>
+                                    <a href="#">
+                                        <span>(+23) 5535 68 68</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="social_icons">
+                                <a href="#">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="bi fa-instagram"></i>
+                                </a>
                             </div>
                         </div>
-                        <div class="brush_2 wow fadeInRight" data-wow-duration="1s"><img src="app/img/contact/2.png"
-                                alt /></div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="links">
+                            <div class="cont">
+                                <h6 class="link_title">
+                                    Services
+                                </h6>
+                                <ul>
+                                    <li>
+                                        <a href="#">IT Consultations </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Data Security </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Website Development </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">UI/UX Design </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Cloud Services </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Game Development </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">CRM & Software </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="links">
+                            <div class="cont">
+                                <h6 class="link_title">
+                                    Information
+                                </h6>
+                                <ul>
+                                    <li>
+                                        <a href="#">About Iteck </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Investors </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Career </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Affiliate Program </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">How It Works </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pricing Plan </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Covid-19 Update </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="foot_subscribe">
+                            <h6 class="link_title">
+                                Newsletter
+                            </h6>
+                            <p>
+                                Register now to get latest updates on  promotions & coupons. 
+                            </p>
+                            <div class="input-group my-4">
+                                <input type="text" class="form-control" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="button-addon2">
+                                <button class="btn butn-gard border-0 text-white px-3" type="button" id="button-addon2">
+                                    <span>Subscribe</span>
+                                </button>
+                            </div>
+                            <p class="fst-italic">By subscribing, you accepted the our <a href="#" class="text-decoration-underline"> Policy</a></p>
+                        </div>
                     </div>
                 </div>
-                <div class="brush_1 wow fadeInLeft" data-wow-duration="1s"><img src="app/img/contact/1.png" alt />
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="foot">
+                        <p>
+                            © 2022 Copyrights by <a href="#" class="text-white text-decoration-underline">Iteck Co.</a> All Rights Reserved by <a href="#" class="text-white text-decoration-underline"> ThemesCamp </a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+        <img src="src/img/footer/foot_l.png" alt="" class="foot_l">
+        <img src="src/img/footer/foot_r.png" alt="" class="foot_r">
+    </footer>
+    <!-- ====== end footer ====== -->
 
 
-        <div class="dizme_tm_section">
-            <div class="dizme_tm_copyright">
-                <div class="container">
-                    <div class="inner">
-                        <div class="left wow fadeInLeft" data-wow-duration="1s">
-                            <p>Antonio Valentín <a href="https://github.com/AntonioValentinSayago"
-                                    target="_blank">FrontEnd Developer</a> &copy; 2023</p>
-                        </div>
-                        <div class="right wow fadeInRight" data-wow-duration="1s">
-                            <ul>
-                                <li><a href="#">Terms &amp; Condition</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- ====== start to top button ====== -->
+        <a href="#" class="to_top">
+            <i class="bi bi-chevron-up"></i>
+            <small>top</small>
+        </a>
+    <!-- ====== end to top button ====== -->
 
 
-        <div class="mouse-cursor cursor-outer"></div>
-        <div class="mouse-cursor cursor-inner"></div>
-
-
-        <div class="progressbar">
-            <a href="#"><span class="text">To Top</span></a>
-            <span class="line"></span>
-        </div>
-
-    </div>
-
-
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="app//js/jquery.js"></script>
-    <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
-    <script src="app//js/plugins.js"></script>
-    <script src="app//js/init.js"></script>
+    <!-- ====== request ====== -->
+    <script src="src/js/lib/jquery-3.0.0.min.js"></script>
+    <script src="src/js/lib/jquery-migrate-3.0.0.min.js"></script>
+    <script src="src/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="src/js/lib/wow.min.js"></script>
+    <script src="src/js/lib/jquery.fancybox.js"></script>
+    <script src="src/js/lib/lity.js"></script>
+    <script src="src/js/lib/swiper.min.js"></script>
+    <script src="src/js/lib/jquery.waypoints.min.js"></script>
+    <script src="src/js/lib/jquery.counterup.js"></script>
+    <!-- <script src="assets/js/lib/pace.js"></script> -->
+    <script src="src/js/lib/scrollIt.min.js"></script>
+    <script src="src/js/main.js"></script>
 
 </body>
 
