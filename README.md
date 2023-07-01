@@ -2,7 +2,7 @@
 <br />
 <p align="center">
  <a href="https://github.com/AntonioValentinSayago/minsait-valentin">
-    <img src="app/img/logov1.png" alt="Logo" width="200" height="160">
+    <img src="app/img/logov1.png" alt="Logo" width="100%" height="160">
  </a>
 
   <h3 align="center">antonio-valentin.dev / Documentation blog with web portfolio</h3>
@@ -44,8 +44,7 @@
 
 [![Product Name Screen Shot][screenshot]](https://github.com/AntonioValentinSayago/minsait-valentin)
 
-Consuming different REST APIS with JSON and Fetch API + Async / Await, one of the most important topics as a JavaScript developer, 
-object-oriented programming with Classes (ES6) and Prototypes (ES5)
+Documentation blog about each technology about the development of each project how to create an application how to deploy an application including web portfolio for hosting and description of projects
 
 ### Built With
 
@@ -143,4 +142,4 @@ Project Link: [https://github.com/AntonioValentinSayago/minsait-valentin](https:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [screenshot]: img/demo.png
-[screenshot01]: app/img/logov1.png
+[screenshot01]: img/demo2.png
