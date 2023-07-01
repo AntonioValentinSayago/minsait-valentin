@@ -2,7 +2,7 @@
 <br />
 <p align="center">
  <a href="https://github.com/AntonioValentinSayago/minsait-valentin">
-    <img src="app/img/logov1.png" alt="Logo" width="100%" height="160">
+    <img src="app/img/logov1.png" alt="Logo" width="50%" >
  </a>
 
   <h3 align="center">antonio-valentin.dev / Documentation blog with web portfolio</h3>
