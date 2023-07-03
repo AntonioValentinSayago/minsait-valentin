@@ -49,15 +49,14 @@ Documentation blog about each technology about the development of each project h
 ### Built With
 
 This project uses some external libraries, I list them below:
-* [socket.io](https://socket.io/)
-* [nodemailer](https://nodemailer.com/about/)
+* [Firebase](https://socket.io/)
+* [Lit Element](https://nodemailer.com/about/)
 * [express-fileupload](https://www.npmjs.com/package/express-fileupload)
 * [expressjs](http://expressjs.com/)
 * [ejs](https://www.npmjs.com/package/ejs)
 * [node-emoji](https://www.npmjs.com/package/node-emoji)
 * [mysql](https://www.npmjs.com/package/mysql)
-* [body-parser](https://www.npmjs.com/package/body-parser)
-* [nodemon](https://www.npmjs.com/package/nodemon)
+
 
 
 
