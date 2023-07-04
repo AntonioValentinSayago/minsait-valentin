@@ -1,11 +1,4 @@
-/*
-Theme Name: Iteck     
-Theme URI: https://themeforest.net/
-Author: ThemesCamp 
-Author URI:  http://themeforest.net/user/themescamp/ 
-Description: Iteck is a Modern Software and Technology HTML Theme for agencies to show their creative works.
-Version: 1.0.0     
-*/
+
 /* -----------------------------------------------------------
 TABLE OF CONTENTS:-                                                                                                      
 --------------------------------------------------------------
@@ -90,7 +83,7 @@ TABLE OF CONTENTS:-
     --color-yellowGreen:#cef54b;
     --color-gray:#eef4f8;
     --color-gray2:#f0eff5;
-    --color-main-grad: linear-gradient(to right, #0c3df4 0%, #02b5ff 100%);
+    --color-main-grad: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,84,191,1) 100%);
   }
   
   .color-main {
@@ -1824,11 +1817,8 @@ TABLE OF CONTENTS:-
     width: 150%;
     height: 100%;
     z-index: 1;
-    background: -webkit-gradient(linear, left top, right top, color-stop(10%, #0c3df4), color-stop(45%, #02b5ff), color-stop(#02b5ff), to(#0c3df4));
-    background: -o-linear-gradient(left, #0c3df4 10%, #02b5ff 45%, #02b5ff, #0c3df4);
-    background: linear-gradient(to right, #0c3df4 10%, #02b5ff 45%, #02b5ff, #0c3df4);
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
+    background: rgb(240,36,44);
+background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     transition: all 0.3s ease;
   }
   .butn.butn-gard:hover::before,
@@ -2695,11 +2685,13 @@ TABLE OF CONTENTS:-
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: var(--color-main-grad);
-    color: #fff;
+            background: rgb(244,241,234);
+            background: radial-gradient(circle, rgba(244,241,234,1) 0%, rgba(230,222,222,1) 100%);
+    color: black;
     font-size: 13px;
     -ms-flex-negative: 0;
         flex-shrink: 0;
+    cursor: pointer;
   }
   .navbar.style-1 .nav-side .hotline .cont h6 {
     color: #000;
