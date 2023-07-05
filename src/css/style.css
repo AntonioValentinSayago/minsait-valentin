@@ -63,12 +63,12 @@ TABLE OF CONTENTS:-
 ================================================================*/
 /* --------------- variable --------------- */
 :root {
-    --color-main:#0066ff;
-    --color-primary:#0066ff;
+    --color-main:#0059bf;
+    --color-primary:#F0242C;
     --color-secondary:#02b5ff;
     --color-blue2: #4a00e1;
     --color-blue4: #5842bc;
-    --color-blue5: #157efb;
+    --color-blue5: #0059bf;
     --color-blue6: #6640f4;
     --color-blue7: #8169f1;
     --color-lightBlue:#15f1ff;
@@ -83,7 +83,7 @@ TABLE OF CONTENTS:-
     --color-yellowGreen:#cef54b;
     --color-gray:#eef4f8;
     --color-gray2:#f0eff5;
-    --color-main-grad: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,84,191,1) 100%);
+    --color-main-grad: #011F44;
   }
   
   .color-main {
@@ -311,7 +311,7 @@ TABLE OF CONTENTS:-
     background-color: var(--color-yellowGreen) !important;
   }
   .hover-yellowGreen:hover * {
-    color: #000;
+    color: #292B37;
   }
   
   .color-orange3 {
@@ -426,14 +426,14 @@ TABLE OF CONTENTS:-
   }
   
   .home-style-7 {
-    color: #000;
+    color: #292B37;
   }
   .home-style-7 a:hover {
     color: var(--color-blue7);
   }
   
   .home-style-8 {
-    color: #000;
+    color: #292B37;
   }
   .home-style-8 a:hover {
     color: var(--color-main);
@@ -445,7 +445,7 @@ TABLE OF CONTENTS:-
   }
   
   .home-style-12 {
-    background-color: #15141a;
+    background-color: #292B37;
     color: #fff;
   }
   
@@ -454,7 +454,7 @@ TABLE OF CONTENTS:-
   }
   
   .home-style-15 {
-    background-color: #0c0125;
+    background-color: #292B37;
     color: #fff;
   }
   .home-style-15 a:hover {
@@ -616,7 +616,7 @@ TABLE OF CONTENTS:-
   }
   
   .pagi_dark .swiper-pagination-bullet {
-    background-color: #000;
+    background-color: #292B37;
   }
   
   .pagi_white .swiper-pagination-bullet {
@@ -1562,12 +1562,12 @@ TABLE OF CONTENTS:-
   }
   
   .bg-black {
-    background-color: #000 !important;
+    background-color: #292B37 !important;
   }
   
   /* ---------------  color classes --------------- */
   .color-000 {
-    color: #000 !important;
+    color: #292B37 !important;
   }
   
   .color-111 {
@@ -1817,8 +1817,8 @@ TABLE OF CONTENTS:-
     width: 150%;
     height: 100%;
     z-index: 1;
-    background: rgb(240,36,44);
-background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
+    background: rgb(255,206,78);
+    background: radial-gradient(circle, rgba(255,206,78,1) 0%, rgba(232,174,21,1) 100%);
     transition: all 0.3s ease;
   }
   .butn.butn-gard:hover::before,
@@ -1954,7 +1954,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    color: #000;
+    color: #292B37;
     background-color: #fff;
     border-radius: 50%;
     font-size: 16px;
@@ -2066,7 +2066,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   .section-head.style-4 h2 {
     font-size: 40px;
     line-height: 1.3;
-    color: #000;
+    color: #292B37;
   }
   .section-head.style-4 h2 span {
     -webkit-background-clip: text;
@@ -2112,7 +2112,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   
   /* --------------- section style-6 --------------- */
   .section-head.style-6 h2 {
-    color: #000;
+    color: #292B37;
     font-size: 45px;
   }
   .section-head.style-6 h2 span {
@@ -2224,7 +2224,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   
   /* --------------- section style-13 --------------- */
   .section-head.style-13 h6 {
-    color: #000;
+    color: #292B37;
     font-size: 14px;
     text-transform: uppercase;
     position: relative;
@@ -2550,7 +2550,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
             clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
   }
   .side_menu.style-7.dark_theme {
-    background-color: #000;
+    background-color: #292B37;
     color: #fff;
   }
   .side_menu.style-7.dark_theme .pages_links li a {
@@ -2646,7 +2646,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .navbar.style-1 .navbar-nav .nav-item .nav-link {
     font-size: 12px;
-    color: #000;
+    color: #292B37;
     font-weight: 700;
     line-height: 2;
     margin: 0 7px;
@@ -2694,7 +2694,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     cursor: pointer;
   }
   .navbar.style-1 .nav-side .hotline .cont h6 {
-    color: #000;
+    color: #292B37;
     font-size: 15px;
     font-weight: bold;
   }
@@ -2776,7 +2776,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    color: #000;
+    color: #292B37;
     background: var(--color-lightBlue);
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -2855,7 +2855,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .navbar.style-4 .navbar-nav .nav-item .nav-link {
     position: relative;
-    color: #000;
+    color: #292B37;
     font-size: 12px;
     font-weight: bold;
     margin: 0 15px;
@@ -2901,7 +2901,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     height: 40px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1333333333);
-    color: #000;
+    color: #292B37;
     font-size: 16px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -2930,7 +2930,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .navbar.style-5 .nav-item .nav-link {
     position: relative;
-    color: #000;
+    color: #292B37;
     font-size: 12px;
     font-weight: bold;
     margin: 0 15px;
@@ -2948,7 +2948,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     height: 40px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1333333333);
-    color: #000;
+    color: #292B37;
     font-size: 16px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -2981,7 +2981,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .navbar.style-6 .nav-item .nav-link {
     position: relative;
-    color: #000;
+    color: #292B37;
     font-size: 12px;
     font-weight: bold;
     margin: 0 15px;
@@ -3018,11 +3018,11 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     border-bottom: 1px solid transparent;
     padding: 0;
     margin: 15px 20px;
-    color: #000;
+    color: #292B37;
     text-transform: capitalize;
   }
   .navbar.style-7 .navbar-nav .nav-item .nav-link.active, .navbar.style-7 .navbar-nav .nav-item .nav-link:hover {
-    border-color: #000;
+    border-color: #292B37;
   }
   .navbar.style-7 .side_menu_btn {
     -webkit-transition: all 0.3s ease-in-out;
@@ -3047,11 +3047,11 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     border-bottom: 1px solid transparent;
     padding: 0;
     margin: 15px 20px;
-    color: #000;
+    color: #292B37;
     text-transform: capitalize;
   }
   .navbar.style-8 .navbar-nav .nav-item .nav-link.active, .navbar.style-8 .navbar-nav .nav-item .nav-link:hover {
-    border-color: #000;
+    border-color: #292B37;
   }
   
   .navbar.style-9.nav-scroll {
@@ -3610,7 +3610,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   header.style-4 .content .info h1 {
     font-size: 52px;
     line-height: 60px;
-    color: #000;
+    color: #292B37;
   }
   header.style-4 .content .info h1 span {
     -webkit-background-clip: text;
@@ -3688,7 +3688,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   header.style-5 .info h1 {
     font-size: 60px;
-    color: #000;
+    color: #292B37;
     line-height: 1.2;
     letter-spacing: -2px;
   }
@@ -3811,7 +3811,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   header.style-6 .info h1 {
     font-size: 85px;
-    color: #000;
+    color: #292B37;
     line-height: 1.1;
   }
   header.style-6 .info h1 span {
@@ -3878,7 +3878,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   header.style-6 .info .form .form-group input {
     background-color: #fff;
     border: 0;
-    color: #000;
+    color: #292B37;
     font-size: 12px;
     width: 100%;
   }
@@ -3947,7 +3947,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   
   header.style-7 {
     position: relative;
-    color: #000;
+    color: #292B37;
     padding-bottom: 60px;
   }
   header.style-7 .content {
@@ -4305,7 +4305,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
             justify-content: center;
     overflow: hidden;
     background-color: #fff;
-    color: #000;
+    color: #292B37;
     font-size: 15px;
   }
   
@@ -4937,7 +4937,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .about.style-4 .btn-img .inf h6 {
     font-size: 12px;
-    color: #000;
+    color: #292B37;
     font-weight: bold;
     line-height: 1.5;
   }
@@ -5000,7 +5000,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .about.style-5 .content .line-links a {
     position: relative;
-    color: #000;
+    color: #292B37;
     font-size: 15px;
     font-weight: bold;
     border-bottom: 1px solid rgba(153, 153, 153, 0.2);
@@ -5297,7 +5297,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   .about.style-8 .info ul li p {
     font-size: 16px;
     font-weight: 500;
-    color: #000;
+    color: #292B37;
   }
   .about.style-8 .info .author {
     display: -webkit-box;
@@ -5494,7 +5494,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    color: #000;
+    color: #292B37;
     font-size: 21px;
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.0666666667);
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.0666666667);
@@ -5556,7 +5556,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     margin-bottom: 35px;
   }
   .services.style-1 .service-box h5 a {
-    color: #000;
+    color: #292B37;
     font-weight: bold;
   }
   .services.style-1 .service-box h5 .num {
@@ -5642,7 +5642,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .services.style-3 .service-card.style-3 .info .title {
     font-size: 18px;
-    color: #000;
+    color: #292B37;
     text-transform: capitalize;
     margin-bottom: 20px;
     font-weight: bold;
@@ -5719,7 +5719,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     overflow: hidden;
     margin: 20px 0;
     display: block;
-    color: #000;
+    color: #292B37;
   }
   .service-card.style-6 .icon {
     -webkit-filter: drop-shadow(5px 15px 20px rgba(7, 57, 114, 0.3333333333));
@@ -5802,7 +5802,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     margin-bottom: 30px;
   }
   .services.style-7 .service-item-style7 .info a {
-    color: #000;
+    color: #292B37;
   }
   .services.style-7 .service-item-style7 .info a i {
     position: relative;
@@ -6092,7 +6092,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
             align-items: center;
     font-size: 20px;
     font-weight: bold;
-    color: #000;
+    color: #292B37;
     margin-bottom: 20px;
   }
   .services.style-13 .item .cont .title img {
@@ -6258,7 +6258,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   .choose-us.style-6 .info ul li .inf h5 {
     font-size: 18px;
     font-weight: bold;
-    color: #000;
+    color: #292B37;
     text-transform: capitalize;
   }
   .choose-us.style-6 .img {
@@ -6275,7 +6275,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   /* --------------- choose-us style-7 --------------- */
   .choose-us.style-7 {
     position: relative;
-    background-color: #000;
+    background-color: #292B37;
     color: #fff;
     overflow: hidden;
   }
@@ -6327,7 +6327,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     background-color: #fff;
     border-radius: 50%;
     background-color: #fff;
-    color: #000;
+    color: #292B37;
     font-size: 14px;
     z-index: 2;
   }
@@ -6540,7 +6540,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     padding: 30px;
   }
   .portfolio.style-1 .portfolio-card .info h5 a {
-    color: #000;
+    color: #292B37;
     font-weight: bold;
   }
   .portfolio.style-1 .portfolio-card .info small {
@@ -6603,7 +6603,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     font-weight: bold;
     font-size: 19px;
     margin-bottom: 0;
-    color: #000;
+    color: #292B37;
   }
   .project-card.style-3 .info .small {
     font-size: 11px;
@@ -6663,7 +6663,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     transition: all 0.3s ease;
   }
   .project-card.style-6 .info .title {
-    color: #000;
+    color: #292B37;
     font-size: 21px;
   }
   .project-card.style-6 .info .title:hover {
@@ -6706,7 +6706,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     font-size: 16px;
     border-radius: 0;
     background: transparent;
-    color: #000;
+    color: #292B37;
     margin: 5px 0;
     text-transform: capitalize;
     margin-left: -20px;
@@ -6732,7 +6732,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     width: 50px;
     height: 50px;
     background: #fff;
-    color: #000;
+    color: #292B37;
     border-radius: 50%;
     top: auto;
     bottom: 0;
@@ -6811,7 +6811,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     font-size: 18px;
-    color: #000;
+    color: #292B37;
   }
   .projects.style-8 .section-head .swiper-button-next:hover,
   .projects.style-8 .section-head .swiper-button-prev:hover {
@@ -6946,7 +6946,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .projects.style-12 .mix_tabs .tab-link.active {
     background-color: var(--color-yellowGreen);
-    color: #000;
+    color: #292B37;
   }
   .projects.style-12 .mix_tabs .tab-link .icon {
     width: 20px;
@@ -7045,7 +7045,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     z-index: 10;
   }
   .projects.style-13 .links-tabs .nav-link {
-    color: #000;
+    color: #292B37;
     text-transform: uppercase;
     border-radius: 30px;
     -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.0666666667);
@@ -7258,7 +7258,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .testimonials.style-1 .content .info .client_card .inf_content p {
     font-size: 12px;
-    color: #000;
+    color: #292B37;
     text-transform: uppercase;
   }
   .testimonials.style-1 .content .info .client_card .inf_content p span {
@@ -7488,7 +7488,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .testimonials.style-4 .content .testi-cards .client_card .inf_content p {
     font-size: 10px;
-    color: #000;
+    color: #292B37;
     text-transform: uppercase;
   }
   .testimonials.style-4 .content .testi-cards .client_card .inf_content p span {
@@ -7532,7 +7532,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   .testi-card.style-5 .text {
     font-size: 19px;
     line-height: 1.6;
-    color: #000;
+    color: #292B37;
     margin-top: 15px;
   }
   .testi-card.style-5 .user h6 {
@@ -7566,7 +7566,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     font-size: 35px;
   }
   .testimonials.style-6 .testi-slider.style-6 .testi-card .text {
-    color: #000;
+    color: #292B37;
     font-size: 23px;
     line-height: 1.4;
   }
@@ -7852,7 +7852,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     border-radius: 0;
   }
   .testimonials.style-11 .testimonials-slider11 .swiper-pagination-bullet-active {
-    background-color: #000;
+    background-color: #292B37;
     border-radius: 0;
     width: 30px !important;
   }
@@ -7874,7 +7874,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     border-radius: 50%;
     line-height: 100px;
     text-align: center;
-    color: #000;
+    color: #292B37;
     font-size: 18px;
     position: absolute;
     bottom: 50px;
@@ -7937,7 +7937,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     color: #777;
   }
   .testimonials.style-11 .logos-content p strong {
-    color: #000;
+    color: #292B37;
   }
   
   .testimonials.style-13 {
@@ -8239,7 +8239,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     background-color: #fff !important;
   }
   .pricing-card.style-3.dark-card .btn span {
-    color: #000;
+    color: #292B37;
   }
   
   .pricing.style-4 .form-check-input.bg-blue4 {
@@ -8303,7 +8303,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .pricing.style-4 .content .price-card .price-header h2 {
     font-size: 37px;
-    color: #000;
+    color: #292B37;
     margin: 12px 0 5px;
   }
   .pricing.style-4 .content .price-card .price-header h2 small {
@@ -8328,7 +8328,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     padding: 0;
   }
   .pricing.style-5 .pricing-tabsHead .price-radios .form-check .form-check-label {
-    color: #000;
+    color: #292B37;
     background-color: transparent;
     font-size: 12px;
     font-weight: bold;
@@ -8504,7 +8504,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     font-size: 20px;
   }
   .pricing.style-5 .content .price-body .price-bodyItems .price-item span {
-    color: #000;
+    color: #292B37;
     font-size: 14px;
   }
   .pricing.style-5 .content .price-foot {
@@ -8600,7 +8600,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   
   .pricing.style-8 .pricing-head {
     padding: 100px 0 70px;
-    background-color: #000;
+    background-color: #292B37;
   }
   .pricing.style-8 .pricing-head .ui-widget-content {
     border-radius: 15px !important;
@@ -8686,7 +8686,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     top: 0;
     width: 100%;
     height: 60px;
-    background-color: #000;
+    background-color: #292B37;
   }
   .pricing.style-8 .pricing-body .content {
     padding-bottom: 100px;
@@ -8890,7 +8890,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     color: #666;
   }
   .pricing.style-10 .pricing-table .table-titles .main-head p strong {
-    color: #000;
+    color: #292B37;
   }
   .pricing.style-10 .pricing-table .table-titles .main-body {
     background-color: #f7f7f7;
@@ -9163,7 +9163,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   .team-card.style-6 .info h6 {
     font-size: 15px;
     font-weight: 600;
-    color: #000;
+    color: #292B37;
   }
   .team-card.style-6 .info small {
     color: #999;
@@ -9578,7 +9578,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     padding: 30px 0;
   }
   .blog-card.style-6 .info .blog-title {
-    color: #000;
+    color: #292B37;
     font-size: 22px;
     margin: 10px 0 10px;
   }
@@ -9771,7 +9771,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .blog.style-13 .blog-item .cont h5 a:hover {
     text-decoration: underline !important;
-    color: #000;
+    color: #292B37;
   }
   
   .blog.style-14 .row .col-lg-4 .blog-item::after {
@@ -10010,7 +10010,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     border-radius: 0;
     font-weight: 600;
     font-size: 16px;
-    color: #000;
+    color: #292B37;
   }
   .faq.style-10 .accordion-button::after {
     background-size: 15px;
@@ -10060,7 +10060,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     position: absolute;
     top: 16px;
     left: 20px;
-    color: #000;
+    color: #292B37;
   }
   .faq.style-10 .integration-card {
     position: relative;
@@ -10357,7 +10357,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .community.style-4 .content .commun-card .inf h5 {
     font-size: 23px;
-    color: #000;
+    color: #292B37;
     font-weight: bold;
     margin-bottom: 0;
     line-height: 1.1;
@@ -10406,7 +10406,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .community.style-5 .content .commun-card .inf h5 {
     font-size: 20px;
-    color: #000;
+    color: #292B37;
     font-weight: bold;
     margin-bottom: 0;
     line-height: 1.1;
@@ -10767,7 +10767,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
             filter: drop-shadow(0 25px 20px rgba(7, 57, 114, 0.2078431373));
   }
   .features-card.style-5 .card-title {
-    color: #000;
+    color: #292B37;
     font-size: 17.5px;
     font-weight: bold;
     margin-bottom: 15px;
@@ -10969,7 +10969,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   /* --------------- features style-9 --------------- */
   .features.style-9 .accordion .accordion-button {
     background: transparent !important;
-    color: #000 !important;
+    color: #292B37 !important;
     font-size: 18px;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -11044,7 +11044,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   .features.style-12 .features-line-slider12 {
     position: relative;
     background-color: var(--color-yellowGreen);
-    color: #000;
+    color: #292B37;
     margin-top: 100px;
     padding: 20px 0;
   }
@@ -11105,7 +11105,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     top: 0;
     width: 100%;
     height: 90px;
-    background-color: #000;
+    background-color: #292B37;
   }
   .features.style-14 .content {
     padding: 100px 5vw 0 5vw;
@@ -11119,7 +11119,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     font-weight: 500;
     text-transform: capitalize;
     margin: 10px;
-    color: #000;
+    color: #292B37;
     font-size: 14px;
     line-height: 1;
   }
@@ -11197,7 +11197,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .number-card.style-6 .text {
     font-size: 15px;
-    color: #000;
+    color: #292B37;
     line-height: 1.5;
     text-transform: capitalize;
   }
@@ -11516,7 +11516,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   
   /* --------------- clients style 14 --------------- */
   .clients.style-14 {
-    background-color: #000;
+    background-color: #292B37;
     color: #fff;
   }
   .clients.style-14 .logos-content {
@@ -11833,7 +11833,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     margin: 10px 0;
   }
   .contact.style-13 .content .contact-info li strong {
-    color: #000;
+    color: #292B37;
   }
   .contact.style-13 .content .contact-form .form-group {
     position: relative;
@@ -12446,7 +12446,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   ================================================================*/
   /* --------------- footer styles --------------- */
   footer.style-1 {
-    background-color: #000;
+    background-color: #292B37;
     position: relative;
   }
   footer.style-1 .foot_l {
@@ -12664,7 +12664,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   footer.style-5 .items .title {
     font-weight: bold;
     margin-bottom: 30px;
-    color: #000;
+    color: #292B37;
     line-height: 1;
   }
   footer.style-5 .items .socail-icons {
@@ -12700,7 +12700,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   footer.style-6 .items .title {
     font-weight: bold;
     margin-bottom: 30px;
-    color: #000;
+    color: #292B37;
   }
   footer.style-6 .items .socail-icons {
     margin-top: 30px;
@@ -12780,7 +12780,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     background-color: #fff;
     border-radius: 50%;
     text-align: center;
-    color: #000;
+    color: #292B37;
     font-size: 16px;
     -webkit-margin-end: 10px;
             margin-inline-end: 10px;
@@ -12837,7 +12837,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
             box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
     border-radius: 50%;
     background-color: #fff;
-    color: #000;
+    color: #292B37;
     font-size: 16px;
     -webkit-margin-start: 8px;
             margin-inline-start: 8px;
@@ -12970,7 +12970,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   
   footer.style-10 {
     position: relative;
-    background-color: #000;
+    background-color: #292B37;
     color: #fff;
   }
   footer.style-10 .info-card {
@@ -13173,7 +13173,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   
   footer.style-13 {
     position: relative;
-    background-color: #000;
+    background-color: #292B37;
   }
   footer.style-13::before {
     position: absolute;
@@ -13394,7 +13394,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     background-image: url(../img/inner5_back.png);
     background-size: cover;
     background-repeat: no-repeat;
-    color: #000;
+    color: #292B37;
   }
   .inner-header.style-5 .content {
     padding: 120px 0;
@@ -13490,7 +13490,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     text-transform: uppercase;
   }
   .single-project.style-5 .about-app.style-5 .about-cards .about-card h6 {
-    color: #000;
+    color: #292B37;
     font-size: 14px;
     font-weight: bold;
     line-height: 1.6;
@@ -13732,7 +13732,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: #292B37;
     opacity: 0;
   }
   .culture.style-5 .culture-card:hover .overlay {
@@ -13964,7 +13964,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
        object-fit: cover;
   }
   .blog-page.style-5 .side-blog .side-recent-post .post-card .inf h6 {
-    color: #000;
+    color: #292B37;
     font-size: 13px;
     font-weight: bold;
     margin-bottom: 5px;
@@ -14040,7 +14040,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     height: 100%;
     left: 0;
     top: 0;
-    background-color: #000;
+    background-color: #292B37;
     opacity: 0;
     z-index: 2;
     -webkit-transition: all 0.3s ease;
@@ -14208,7 +14208,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .shop-page .filter .filter-card .card-title {
     font-size: 15px;
-    color: #000;
+    color: #292B37;
     font-weight: 800;
     margin-bottom: 15px;
   }
@@ -14216,7 +14216,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     cursor: pointer;
   }
   .shop-page .filter .filter-card .cat-link {
-    color: #000;
+    color: #292B37;
     font-size: 11px;
     font-weight: 600;
   }
@@ -14231,7 +14231,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     color: var(--color-blue5);
   }
   .shop-page .filter .filter-card .accordion .accordion-button {
-    color: #000;
+    color: #292B37;
     font-size: 11px;
     font-weight: 600;
     padding: 0;
@@ -14254,7 +14254,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .shop-page .filter .filter-card .filter-card-item .sub-tilte {
     font-size: 11px;
-    color: #000;
+    color: #292B37;
     font-weight: 800;
     position: relative;
     cursor: pointer;
@@ -14407,7 +14407,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
         -ms-flex-pack: center;
             justify-content: center;
     background-color: #f0f4f8;
-    color: #000;
+    color: #292B37;
     -webkit-margin-start: 10px;
             margin-inline-start: 10px;
     cursor: pointer;
@@ -14529,7 +14529,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     font-weight: bold;
   }
   .shop-page .products-content .products .product-card .btn:hover {
-    background-color: #000;
+    background-color: #292B37;
   }
   .shop-page .products-content .products .product-card .label {
     position: absolute;
@@ -14538,7 +14538,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     font-size: 9px;
     border-radius: 4px;
     background-color: #f0f0f0;
-    color: #000;
+    color: #292B37;
     padding: 3px 10px;
     text-transform: uppercase;
   }
@@ -14690,7 +14690,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .product-page .product-info .price {
     font-size: 25px;
-    color: #000;
+    color: #292B37;
     font-weight: bold;
     margin-top: 30px;
   }
@@ -14737,7 +14737,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     background-color: #e3e3e3;
   }
   .product-page .product-info .color-quantity .select-color .colors-content .form-check .form-check-label .color-circle.black {
-    background-color: #000;
+    background-color: #292B37;
   }
   .product-page .product-info .color-quantity .select-color .colors-content .form-check .form-check-label .color-circle.blue {
     background-color: #1941c4;
@@ -14794,7 +14794,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     font-weight: bold;
   }
   .product-page .product-info .qyt-addCart .btn:hover {
-    background-color: #000;
+    background-color: #292B37;
   }
   .product-page .product-info .fav-btn {
     width: 45px;
@@ -14842,7 +14842,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     text-transform: capitalize;
   }
   .product-page .product-details .nav-pills .nav-link.active {
-    color: #000;
+    color: #292B37;
     font-weight: bold;
   }
   .product-page .product-details .content-info {
@@ -15064,7 +15064,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     font-weight: bold;
   }
   .product-page .product-card .btn:hover {
-    background-color: #000;
+    background-color: #292B37;
   }
   .product-page .product-card .label {
     position: absolute;
@@ -15073,7 +15073,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     font-size: 9px;
     border-radius: 4px;
     background-color: #f0f0f0;
-    color: #000;
+    color: #292B37;
     padding: 3px 10px;
     text-transform: uppercase;
   }
@@ -15209,7 +15209,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     background-color: #f4f6f9;
     border-radius: 10px;
     font-weight: bold;
-    color: #000;
+    color: #292B37;
     -webkit-box-shadow: none;
             box-shadow: none;
     padding: 12px 20px;
@@ -15232,7 +15232,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     border-radius: 50%;
     background: #fff;
     border-radius: 50%;
-    color: #000;
+    color: #292B37;
     content: "\f067";
     font-weight: 900;
     font-family: "Font Awesome 5 pro";
@@ -15307,7 +15307,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .careers-page.style-5 .careers-positions .position-card .time {
     font-size: 16px;
-    color: #000;
+    color: #292B37;
   }
   .careers-page.style-5 .careers-positions .position-card .trend-mark {
     position: absolute;
@@ -15440,7 +15440,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   ================================================================*/
   /* --------------- career-details-page style-5 --------------- */
   .career-details-page.style-5 {
-    color: #000;
+    color: #292B37;
   }
   .career-details-page.style-5 p {
     font-size: 16px;
@@ -15473,7 +15473,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
     margin: 15px 0;
   }
   .career-details-page.style-5 .summary-card li span {
-    color: #000;
+    color: #292B37;
   }
   .career-details-page.style-5 .careers-positions .position-card {
     padding: 30px;
@@ -15495,7 +15495,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .career-details-page.style-5 .careers-positions .position-card .time {
     font-size: 16px;
-    color: #000;
+    color: #292B37
   }
   .career-details-page.style-5 .careers-positions .position-card .trend-mark {
     position: absolute;
@@ -15657,7 +15657,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   ================================================================*/
   /* --------------- about2 page style-5 --------------- */
   .about-page.style-2 {
-    color: #000;
+    color: #292B37;
   }
   .about-page.style-2 .about.style-2 {
     position: relative;
@@ -15683,7 +15683,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   }
   .about-page.style-2 .about.style-2 .info .nav .nav-item .nav-link {
     position: relative;
-    color: #000;
+    color: #292B37;
     border-radius: 0;
     background: transparent;
     padding: 0;
@@ -16009,7 +16009,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   /* --------------- faq-page style-5 --------------- */
   .comming-soon-page.style-5 {
     position: relative;
-    color: #000;
+    color: #292B37;
   }
   .comming-soon-page.style-5 .comming-soon {
     background-image: url(../img/comming_back1.png);
@@ -16128,7 +16128,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   /* --------------- faq-page style-5 --------------- */
   .erorr-404-page.style-5 {
     position: relative;
-    color: #000;
+    color: #292B37;
   }
   .erorr-404-page.style-5 .erorr-page {
     background-image: url(../img/comming_back1.png);
@@ -16162,7 +16162,7 @@ background: radial-gradient(circle, rgba(240,36,44,1) 0%, rgba(68,0,3,1) 100%);
   /* --------------- faq-page style-5 --------------- */
   .signin-page.style-5 .signin {
     position: relative;
-    color: #000;
+    color: #292B37;
     background-image: url(../img/comming_back1.png);
     background-size: cover;
     background-attachment: fixed;
