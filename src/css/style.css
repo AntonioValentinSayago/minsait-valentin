@@ -71,6 +71,8 @@ TABLE OF CONTENTS:-
     --color-blue5: #0059bf;
     --color-blue6: #6640f4;
     --color-blue7: #8169f1;
+    --color-yellow1: #FFCE4E;
+    --color-blue-main: #011f44;
     --color-lightBlue:#15f1ff;
     --color-darkBlue:#010049;
     --color-darkBlue2:#1f227d;
@@ -172,7 +174,7 @@ TABLE OF CONTENTS:-
   }
   
   .bg-blue4 {
-    background-color: var(--color-blue4) !important;
+    background-color: var(--color-blue-main) !important;
   }
   
   .border-blue4 {
@@ -8243,8 +8245,8 @@ TABLE OF CONTENTS:-
   }
   
   .pricing.style-4 .form-check-input.bg-blue4 {
-    background-color: var(--color-blue4);
-    border-color: var(--color-blue4);
+    background-color: var(--color-blue-main);
+    border-color: var(--color-blue-main);
   }
   .pricing.style-4 .content .row .col-lg-6:nth-of-type(1) .price-card {
     border-top-right-radius: 0;
