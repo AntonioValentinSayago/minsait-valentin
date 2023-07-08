@@ -143,4 +143,4 @@ Project Link: [https://github.com/AntonioValentinSayago/minsait-valentin](https:
 <!-- MARKDOWN LINKS & IMAGES -->
 [screenshot]: img/demo.png
 [screenshot01]: img/demo2.png
-[screenshot02]: img/demo3.png
+[screenshot02]: src/img/demo-pages.png
