@@ -1,10 +1,12 @@
-import WelcomePage from "./components/WelcomePage"
+import Header from "./components/layout/Header"
+import NavHeader from "./components/layout/NavHeader"
 
 function App() {
  
   return (
     <>
-      <WelcomePage />
+      <NavHeader />
+      <Header />
     </>
   )
 }
