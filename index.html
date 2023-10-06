@@ -1,12 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Antonio Valentin + FrontEnd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&family=Lato:ital,wght@0,400;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <style>
+    * {
+      font-family: "Comic Neue", cursive;
+    }
+    .anim_moveBottom {
+      animation: anim_moveBottom 3s linear 0s infinite alternate;
+    }
+
+    @keyframes anim_moveBottom {
+      0% {
+        transform: translateY(0px);
+      }
+
+      100% {
+        transform: translateY(15px);
+      }
+    }
+
+    @keyframes animate-fondo {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .animate-fondo {
+      animation: rotate-center 100s linear infinite both;
+    }
+
+    .animate-fondo {
+      position: absolute;
+      width: 50%;
+      left: 0;
+      max-height: unset;
+      max-width: unset;
+      opacity: 0.2;
+      animation: rotate-center 100s linear infinite both;
+    }
+  </style>
+  <body class="font-">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
