@@ -1,8 +1,8 @@
-import { FaToggleOn } from "react-icons/fa";
+import { FaToggleOn, FaDownload } from "react-icons/fa";
 
 const NavHeader = () => {
   return (
-    <nav className="bg-white bg-opacity-25 dark:bg-opacity-25 dark:bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <nav className="bg-white  dark:bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-100 dark:border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://flowbite.com/" className="flex items-center">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-gray-700">
@@ -10,13 +10,11 @@ const NavHeader = () => {
           </span>
         </a>
         <div className="flex md:order-2">
-          <button
-            type="button"
-            className="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
-          >
+          <button type="button" className="text-white bg-slate-950 hover:bg-slate-900 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50 dark:hover:bg-slate-900 mr-2 mb-2 transition duration-300 ease-in-out transform hover:scale-105">
+            <FaDownload className="justify-between items-center mr-2 mx-auto"/>
             Download CV
           </button>
-          <FaToggleOn className="m-auto w-10 h-7 text-sky-600"/>
+          <FaToggleOn className="m-auto w-10 h-7 text-sky-600" />
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -25,9 +23,9 @@ const NavHeader = () => {
             aria-expanded="false"
           >
             <span className="sr-only">Open main menu</span>
-                  <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
-        </svg>
+            <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
           </button>
         </div>
         <div

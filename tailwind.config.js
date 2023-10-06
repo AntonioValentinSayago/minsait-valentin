@@ -5,7 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {animation: {
+      'moveUpDown': 'moveUpDown 1s ease-in-out infinite'
+    }},
   },
   plugins: [],
 }
