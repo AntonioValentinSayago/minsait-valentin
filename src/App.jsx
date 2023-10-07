@@ -1,5 +1,6 @@
 import Header from "./components/layout/Header"
 import NavHeader from "./components/layout/NavHeader"
+import Section from "./components/pages/Section"
 
 function App() {
  
@@ -7,6 +8,7 @@ function App() {
     <>
       <NavHeader />
       <Header />
+      <Section />
     </>
   )
 }
