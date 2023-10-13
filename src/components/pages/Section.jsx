@@ -20,12 +20,24 @@ const Section = () => {
         >
           <FaJava width={24} height={24} className="text-slate-800"/>
           <FaReact width={24} height={24} className="text-slate-800"/>
+          <FaCss3 width={24} height={24} className="text-slate-800"/>
+          <FaGitSquare width={24} height={24} className="text-slate-800"/>
+          <FaHtml5 width={24} height={24} className="text-slate-800"/>
+          <FaJsSquare width={24} height={24} className="text-slate-800"/>
+          <FaNode width={24} height={24} className="text-slate-800"/>
+          <FaPhp width={24} height={24} className="text-slate-800"/>
         </div>
         <div
           className="slide flex w-[125px] items-center justify-center"
         >
           <FaJava  width={24} height={24} className="text-slate-800"/>
           <FaReact width={24} height={24} className="text-slate-800"/>
+          <FaCss3 width={24} height={24} className="text-slate-800"/>
+          <FaGitSquare width={24} height={24} className="text-slate-800"/>
+          <FaHtml5 width={24} height={24} className="text-slate-800"/>
+          <FaJsSquare width={24} height={24} className="text-slate-800"/>
+          <FaNode width={24} height={24} className="text-slate-800"/>
+          <FaPhp width={24} height={24} className="text-slate-800"/>
         </div>
     </div>
   </div>
