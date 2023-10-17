@@ -1,3 +1,7 @@
+import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import {
   FaJava,
   FaReact,
@@ -10,37 +14,56 @@ import {
 } from "react-icons/fa";
 
 const Section = () => {
-
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 0,
+    cssEase: "linear",
+  };
   return (
-
-    <div className="relative m-auto w-[500px] overflow-hidden bg-white before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">
-    <div className="animate-infinite-slider flex w-[calc(250px*10)]">
-        <div
-          className="slide flex w-[125px] items-center justify-center"
-        >
-          <FaJava width={24} height={24} className="text-slate-800"/>
-          <FaReact width={24} height={24} className="text-slate-800"/>
-          <FaCss3 width={24} height={24} className="text-slate-800"/>
-          <FaGitSquare width={24} height={24} className="text-slate-800"/>
-          <FaHtml5 width={24} height={24} className="text-slate-800"/>
-          <FaJsSquare width={24} height={24} className="text-slate-800"/>
-          <FaNode width={24} height={24} className="text-slate-800"/>
-          <FaPhp width={24} height={24} className="text-slate-800"/>
-        </div>
-        <div
-          className="slide flex w-[125px] items-center justify-center"
-        >
-          <FaJava  width={24} height={24} className="text-slate-800"/>
-          <FaReact width={24} height={24} className="text-slate-800"/>
-          <FaCss3 width={24} height={24} className="text-slate-800"/>
-          <FaGitSquare width={24} height={24} className="text-slate-800"/>
-          <FaHtml5 width={24} height={24} className="text-slate-800"/>
-          <FaJsSquare width={24} height={24} className="text-slate-800"/>
-          <FaNode width={24} height={24} className="text-slate-800"/>
-          <FaPhp width={24} height={24} className="text-slate-800"/>
-        </div>
+    <div className="mt-5 mx-auto container opacity-10">
+      <div className="">
+        <Slider {...settings}>
+          <div>
+            <FaJava className="w-16 h-16 text-slate-950 font-bold"/>
+          </div>
+          <div>
+            <FaReact className="w-16 h-16 text-slate-950 font-bold"/>
+          </div>
+          <div>
+            <FaCss3 className="w-16 h-16 text-slate-950 font-bold"/>
+          </div>
+          <div>
+            <FaGitSquare className="w-16 h-16 text-slate-950 font-bold"/>
+          </div>
+          <div>
+            <FaHtml5 className="w-16 h-16 text-slate-950 font-bold"/>
+          </div>
+          <div>
+            <FaJsSquare className="w-16 h-16 text-slate-950 font-bold"/>
+          </div>
+          <div>
+            <FaNode className="w-16 h-16 text-red-700 font-bold"/>
+          </div>
+          <div>
+            <FaPhp className="w-16 h-16 text-red-700 font-bold"/>
+          </div>
+          <div>
+            <FaPhp className="w-16 h-16 text-red-700 font-bold"/>
+          </div>
+          <div>
+            <FaPhp className="w-16 h-16 text-red-700 font-bold"/>
+          </div>
+          <div>
+            <FaPhp className="w-16 h-16 text-red-700 font-bold"/>
+          </div>
+        </Slider>
+      </div>
     </div>
-  </div>
   );
 };
 
